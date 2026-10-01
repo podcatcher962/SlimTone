@@ -1,0 +1,23 @@
+# ---- 构建产物（EXE 走 GitHub Release 分发，不进仓库）----
+build/
+dist/
+*.pkg
+*.spec.bak
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 测试 / 打包过程中的临时垃圾 ----
+_trash/
+_t/
+_*_out.txt
+_build.log
+*.part
+*.slimtone.part
+
+# ---- 本地运行时配置（含个人路径，勿提交）----
+.slimtone.json
